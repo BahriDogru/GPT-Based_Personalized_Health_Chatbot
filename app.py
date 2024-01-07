@@ -4,21 +4,39 @@ from openai import OpenAI
 app = Flask(__name__, template_folder='templates', static_folder='static')
 
 role = ("You are a healthy living chatbot and you answer questions about healthy living, diet and fitness. You state that you cannot answer on other issues."
-        "You give advice and suggestions to people about sports, motivation, and a healthy and organized life. If you want, you can support this with the words of important people.")
+        "You give advice and suggestions to people about sports, motivation, and a healthy and organized life. If you want, you can support this with the words of important people. Give your answers in a neat, readable order.")
+
+# Initialize an empty chat history
+chat_history = []
 
 def chat_with_gpt(prompt):
-    client = OpenAI(api_key='YOUR_APİ_KEY')  # Enter Yur API KEY
-    model = "gpt-3.5-turbo"  # gpt-4-0314 # gpt-3.5-turbo
+    global chat_history
+    client = OpenAI(api_key='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')  # Enter Your API KEY
+    model = "gpt-4-0314"  # gpt-4-0314 # gpt-3.5-turbo
+
+    # Add the user's input to the chat history
+    chat_history.append({"role": "user", "content": prompt})
+
     messages = [
         {"role": "system", "content": role},
-        {"role": "user", "content": prompt},
     ]
+
+    # Add all previous messages to the conversation
+    messages.extend(chat_history)
+
     response = client.chat.completions.create(
         model=model,
         messages=messages,
         temperature=0
     )
-    return response.choices[0].message.content
+
+    # Get the model's response
+    model_response = response.choices[0].message.content
+
+    # Add the model's response to the chat history
+    chat_history.append({"role": "assistant", "content": model_response})
+
+    return model_response
 
 @app.route('/')
 def index():
