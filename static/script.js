@@ -27,9 +27,10 @@ async function sendMessage() {
         // Get the response from ChatGPT
         var jsonResponse = await response.json();
         var chatGptResponse = jsonResponse.message;
+        chatGptResponse = chatGptResponse.replace(/\n/g, '<br>');
 
         // Display the response in the chat box
-        chatBox.innerHTML += '<p><strong>HealtBot:</strong> ' + chatGptResponse + '</p>';
+        chatBox.innerHTML += '<p><strong>HealtBot Mia:</strong> ' + chatGptResponse +'<p>';
 
         document.getElementById('user-input').value = '';
     }

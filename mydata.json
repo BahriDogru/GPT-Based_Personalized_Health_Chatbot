@@ -1,0 +1,76 @@
+{
+    "veriler": [
+        {
+            "sorular": "Nasıl sağlıklı bir diyet yapabilirim?",
+            "cevaplar": "Sağlıklı bir diyet için dengeli beslenmeye dikkat edin ve yeterli su içmeye özen gösterin."
+        },
+        {
+            "sorular": "Hangi sporu yapmalıyım?",
+            "cevaplar": "Spor tercihiniz kişisel zevklerinize ve hedeflerinize bağlıdır. Sevdiğiniz bir aktiviteyi seçmek motivasyonunuzu artırabilir."
+        },
+        {
+            "sorular": "Senin adın ne?",
+            "cevaplar": "Benim adım Mia"
+        },
+        {
+            "sorular": "bana bir diyet programı hazırlar mısın?",
+            "cevaplar": " Tabii ki, size bir diyet programı hazırlayabilirim! Ancak öncesinde bazı bilgilere ihtiyacım var. Kaç yaşındasınız, boyunuz ve kilonuz nedir? Ayrıca günlük aktivite seviyeniz ve varsa özel diyet gereksinimleriniz hakkında da bilgi verir misiniz? Bu bilgileri paylaşarak size daha spesifik bir program sunabilirim. Hazır mısınız?"
+        },
+        {
+            "sorular": "Nasılsın?",
+            "cevaplar": "İyiyim teşekkür ederim siz nasılsınız?"
+        },
+        {
+            "sorular": "Sen kimsin?",
+            "cevaplar": "Ben, sağlıklı yaşam, diyet ve fitness hakkında soruları yanıtlayan bir chatbot'um. Spor, motivasyon ve sağlıklı, düzenli bir yaşam hakkında tavsiye ve önerilerde bulunabilirim. Bu konularda size cevap vermekten mutluluk duyarım."
+        },
+        {
+            "sorular": "Bana bir antrenman programı hazırlar mısın?",
+            "cevaplar": "Tabi hazırlayabilirim ama öncelikle sizin ile ilgili birkaç bilgiye ihtiyacım var. Lütfen yaşınızı, cinsiyetinizi, kilonuzu, boyunuzu ve günlük aktiflik haretliliğinizi söylermisiniz?"
+        },
+        {
+            "sorular": "Nasıl daha sağlıklı beslenebilirim?",
+            "cevaplar": "Rica ederim! Başka bir sorunuz var mı?"
+        },
+        {
+            "sorular": "Sağlıklı bir diyet nasıl tanımlanır?",
+            "cevaplar": "Sağlıklı bir diyet, vücudun ihtiyaç duyduğu tüm besin öğelerini dengeli bir şekilde içeren bir beslenme planını ifade eder. Bu plan, protein, karbonhidrat, yağ, vitamin ve mineral içermelidir."
+        },
+        {
+            "sorular": "Günlük su tüketimi ne kadar olmalıdır?",
+            "cevaplar": "Günlük su tüketimi kişinin yaşına, kilosuna ve yaşam tarzına bağlı olarak değişebilir. Genel olarak, yetişkin bir bireyin günde en az 8 su bardağı su içmesi önerilir."
+        },
+        {
+            "sorular": "Sağlıklı yağ kaynakları nelerdir?",
+            "cevaplar": "Sağlıklı yağ kaynakları arasında zeytinyağı, avokado, balık (omega-3 yağ asitleri için), fındık ve tohumlar yer alır. Doymuş yağları sınırlamak ve trans yağlardan kaçınmak önemlidir."
+        },
+        {
+            "sorular": "Tam tahıl ürünleri neden önemlidir?",
+            "cevaplar": "Tam tahıl ürünleri, lif, vitamin ve mineral içerir. Lif içeriği sindirimi düzenler, tokluk hissi sağlar ve kalp sağlığını destekler. Bu nedenle, tam tahıl ürünleri içeren bir diyet önerilir."
+        },
+        {
+            "sorular": "Porsiyon kontrolü neden önemlidir?",
+            "cevaplar": "Porsiyon kontrolü, aşırı yeme riskini azaltır ve kilo kontrolüne yardımcı olur. Sağlıklı bir diyet, uygun porsiyonlarda çeşitli besinleri içermelidir."
+        },
+        {
+            "sorular": "Düzenli egzersiz neden önemlidir?",
+            "cevaplar": "Düzenli egzersiz, kilo kontrolüne yardımcı olur, enerji seviyelerini artırır, kas sağlığını destekler ve genel sağlığı iyileştirir. Haftada en az 150 dakika orta düzeyde egzersiz önerilir."
+        },
+        {
+            "sorular": "Hangi gıdalardan uzak durmalıyım?",
+            "cevaplar": "İşlenmiş gıdalardaki eklenmiş şeker ve tuz miktarını sınırlamalısınız. Ayrıca, doymuş yağ oranı yüksek olan fast food ve hazır gıdalardan kaçının. İdeal olarak, doğal şeker kaynaklarına odaklanmalısınız."
+        },
+        {
+            "sorular": "Vitamin ve mineral takviyeleri ne zaman gereklidir?",
+            "cevaplar": "Vitamin ve mineral takviyeleri, beslenme ihtiyaçlarınızı karşılamada eksiklik yaşadığınız durumlarda veya doktorunuzun önerisi üzerine kullanılmalıdır. Genellikle dengeli bir diyetle ihtiyaçlarınızı karşılayabilirsiniz."
+        },
+        {
+            "sorular": "Yemekleri yavaş yemenin avantajları nelerdir?",
+            "cevaplar": "Yavaş yemek, doyduğunuzda daha erken fark etmenizi sağlar, sindirimi iyileştirir, kilo kontrolüne yardımcı olur ve besinleri daha iyi sindirmenize yardımcı olur."
+        },
+        {
+            "sorular": "Sağlıklı bir yaşam tarzının bir parçası olarak neden stresten kaçınılmalıdır?",
+            "cevaplar": "Stresten kaçınmak, fiziksel ve mental sağlığı iyileştirir. Kronik stres, beslenme alışkanlıklarını olumsuz yönde etkileyebilir ve genel yaşam kalitesini düşürebilir. Düzenli egzersiz ve rahatlatıcı aktiviteler bu konuda yardımcı olabilir."
+        }
+    ]
+}
