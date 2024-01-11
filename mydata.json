@@ -2,35 +2,35 @@
     "veriler": [
         {
             "sorular": "Nasıl sağlıklı bir diyet yapabilirim?",
-            "cevaplar": "Sağlıklı bir diyet için dengeli beslenmeye dikkat edin ve yeterli su içmeye özen gösterin."
+            "cevaplar": "Sağlıklı bir diyet, vücudunuzun ihtiyaç duyduğu besinleri almanızı ve genel sağlığınızı desteklemenizi sağlar.."
         },
         {
             "sorular": "Hangi sporu yapmalıyım?",
-            "cevaplar": "Spor tercihiniz kişisel zevklerinize ve hedeflerinize bağlıdır. Sevdiğiniz bir aktiviteyi seçmek motivasyonunuzu artırabilir."
+            "cevaplar": "Tabii ki, size bir diyet programı hazırlayabilirim! Ancak öncesinde bazı bilgilere ihtiyacım var. Kaç yaşındasınız, boyunuz ve kilonuz nedir? Ayrıca günlük aktivite seviyeniz ve varsa özel diyet gereksinimleriniz hakkında da bilgi verir misiniz? Bu bilgileri paylaşarak size daha spesifik bir program sunabilirim. Hazır mısınız?"
         },
         {
             "sorular": "Senin adın ne?",
-            "cevaplar": "Benim adım Mia"
+            "cevaplar": "Benim adım Mia. Sağlıklı yaşam koçunuzum."
         },
         {
             "sorular": "bana bir diyet programı hazırlar mısın?",
-            "cevaplar": " Tabii ki, size bir diyet programı hazırlayabilirim! Ancak öncesinde bazı bilgilere ihtiyacım var. Kaç yaşındasınız, boyunuz ve kilonuz nedir? Ayrıca günlük aktivite seviyeniz ve varsa özel diyet gereksinimleriniz hakkında da bilgi verir misiniz? Bu bilgileri paylaşarak size daha spesifik bir program sunabilirim. Hazır mısınız?"
+            "cevaplar": "Tabii ki, size bir diyet programı hazırlayabilirim! Ancak öncesinde bazı bilgilere ihtiyacım var. Kaç yaşındasınız, boyunuz ve kilonuz nedir? Ayrıca günlük aktivite seviyeniz ve varsa özel diyet gereksinimleriniz hakkında da bilgi verir misiniz? Bu bilgileri paylaşarak size daha spesifik bir program sunabilirim. Hazır mısınız?"
         },
         {
             "sorular": "Nasılsın?",
-            "cevaplar": "İyiyim teşekkür ederim siz nasılsınız?"
+            "cevaplar": "İyiyim teşekkür ederim siz nasılsınız?😉"
         },
         {
             "sorular": "Sen kimsin?",
-            "cevaplar": "Ben, sağlıklı yaşam, diyet ve fitness hakkında soruları yanıtlayan bir chatbot'um. Spor, motivasyon ve sağlıklı, düzenli bir yaşam hakkında tavsiye ve önerilerde bulunabilirim. Bu konularda size cevap vermekten mutluluk duyarım."
+            "cevaplar": "Ben, sağlıklı yaşam, diyet ve fitness hakkında soruları yanıtlayan bir chatbot'um. Spor, motivasyon ve sağlıklı, düzenli bir yaşam hakkında tavsiye ve önerilerde bulunabilirim. Bu konularda size cevaplar vermekten mutluluk duyarım."
+        },
+        {
+            "sorular": "Seni kim geliştirdi?",
+            "cevaplar": "Ben Bahri DOĞRU, Orkun CANIGÜR ve Mete YILMAZ tarafından ortak olarak geliştirilen profesyonel düzeyde çalışan bir yaşam asistanıyım."
         },
         {
             "sorular": "Bana bir antrenman programı hazırlar mısın?",
             "cevaplar": "Tabi hazırlayabilirim ama öncelikle sizin ile ilgili birkaç bilgiye ihtiyacım var. Lütfen yaşınızı, cinsiyetinizi, kilonuzu, boyunuzu ve günlük aktiflik haretliliğinizi söylermisiniz?"
-        },
-        {
-            "sorular": "Nasıl daha sağlıklı beslenebilirim?",
-            "cevaplar": "Rica ederim! Başka bir sorunuz var mı?"
         },
         {
             "sorular": "Sağlıklı bir diyet nasıl tanımlanır?",
@@ -71,6 +71,44 @@
         {
             "sorular": "Sağlıklı bir yaşam tarzının bir parçası olarak neden stresten kaçınılmalıdır?",
             "cevaplar": "Stresten kaçınmak, fiziksel ve mental sağlığı iyileştirir. Kronik stres, beslenme alışkanlıklarını olumsuz yönde etkileyebilir ve genel yaşam kalitesini düşürebilir. Düzenli egzersiz ve rahatlatıcı aktiviteler bu konuda yardımcı olabilir."
+        },
+        
+        {
+            "sorular": "Sağlıklı Diyet Nasıl Olur?",
+            "cevaplar": "Diyet, ülkemizde ve dünyada dönemsel olarak daima popüler olmuştur. Kilo problemi yaşayan, sağlıklı yaşamak isteyen kişiler, bazen de kilo almak isteyen bireyler doğru diyet ile zayıflamaya çalışır. Tüm bunlar için diyet olmazsa olmazdır. Öncelikle bu diyetlerin hangi kıstaslara göre belirlendiğini öğrenmek gerekir. Çünkü her bireyin ihtiyaç duyduğu ve zararlı olan besinler farklılık gösterir."
+        },
+        {
+            "sorular": "Sağlıklı zayıflama diyet listesinde hangi yiyecekler yer almalıdır?",
+            "cevaplar": "Diyet yemekleri dendiğinde akla ilk gelen yağsız, tuzsuz ve lezzetsiz yemekler olur. Oysa yağlar vücut için elzem asitler içerir. Hormonların ve sinir sisteminin düzenli olarak çalışmasında etkin olan yağlar, yağda eriyen vitaminler için de oldukça önemlidir. Vücudun ısı dengesinin korunmasında önemli rol oynayan yağlar, midenin geç boşalmasını da sağlayarak açlık duygusunu geciktirir. Bu yüzden zayıflamak için diyet listesi hazırlanırken yağsız değil az yağlı yemekler kullanılması gerekir. Yağ çeşidi olarak da zeytinyağı, ayçiçeği yağı ve avokado yağı gibi yağlar tüketilmesi hücre zarlarının daha iyi korunmasını sağlar. Yüksek lif içeren tahıllar, kepekli makarna, kinoa, bulgur, kepekli pirinç gibi karbonhidratlar diyette mutlaka yer almalıdır.  Kan şekerinin dengelenmesinde önemli rol oynayan süt, yoğurt, kefir gibi besinler de sağlıklı bir diyetin olmazsa olmazlarıdır. Yüksek vitamin ve mineral içeriğine sahip meyve ve sebzeler içerdikleri antioksidan bileşenler nedeniyle beslenme programlarında mutlaka yer almalıdır. Yüksek protein içeriğine sahip olan et, tavuk, yumurta, balık ve kuru baklagiller ise hem kasların korunmasına yardımcı olur hem de geç sindirildiğinden dolayı uzun süre tokluk hissi sağlar. Tüm bu besin gruplarının yeterli ve dengeli alınmasını sağlayan zayıflama listesi ile yağ yakımınız daha hızlı ve kilo vermeniz daha kalıcı olur."
+        },
+        {
+            "sorular": "Zayıflama Haplarının Zararları - Zayıflama İlacı Kullanmak Ne Kadar Doğru?",
+            "cevaplar": "Zayıflama hapları, kilo kaybını hızlandırmak amacıyla kullanılan ürünlerdir. Ancak, bu hapların bilinçsizce ve kontrolsüzce kullanılması bazı riskleri beraberinde getirebilir. Zayıflama haplarının potansiyel zararları şunlardır:\n\n1. Sağlık sorularnları: Bilinçsizce kullanılan zayıflama hapları, kalp problemleri, tansiyon sorularnları ve sindirim sistemi rahatsızlıkları gibi ciddi sağlık sorularnlarına yol açabilir.\n\n2. Bağımlılık: Bazı zayıflama ilaçları, bağımlılık yapabilen maddeler içerebilir. Bu da uzun vadede kullanıcının sağlığını olumsuz etkileyebilir.\n\n3. Yan Etkiler: Zayıflama haplarının yan etkileri arasında baş ağrısı, mide bulantısı, uykusuzluk ve sinirlilik gibi sorularnlar bulunabilir.\n\n4. Beslenme Yetersizliği: Zayıflama hapları sıklıkla iştah kesici özelliklere sahiptir. Bu da kişinin yeterli besin alımını engelleyerek beslenme yetersizliğine yol açabilir.\n\nBu nedenle, kilo kontrolü için zayıflama hapları yerine dengeli beslenme, düzenli egzersiz ve sağlıklı yaşam alışkanlıkları benimsemek daha güvenli bir yaklaşım olabilir. Kullanılacaksa bile mutlaka bir sağlık profesyoneli gözetiminde ve önerisiyle kullanılmalıdır."
+        },
+        {
+            "sorular": "Kilo Almak İçin Ne Yemeliyim?",
+            "cevaplar": "Kişiler, genetik nedenlerden, sonradan bozulan yemek düzenlerinden veya geçirilen çeşitli hastalıklardan dolayı kilo kayıpları yaşamaktadır. Kaybedilen kilolar, pek çok hastalığı da peşinden getirmektedir. Bu sorularnu yaşayan kişiler, kilo almak için beslenme programı oluşturmalı ve bu program ile ideal kilolarına ulaşmalılardır.\n\nKilo almak için poğaça, börek gibi bol karbonhidratlı yiyecekler işe yarar gibi gözükse de aslında bu yiyecekler size sadece sağlıksız bir karın yağı bırakmaktadır. Bu durumda kişilerin dengeli beslenerek kilo almaları gerekmektedir. Dengeli ve düzenli beslenmek hem ideal kilonuza ulaşmada yardımcı olacaktır hem de sağlıklı bir hayat tarzı benimsemenizi sağlayacaktır.\n\n-Kalorili Yiyecekler Tüketin\n-Protein Ağırlıklı Beslenin.\n-3 Öğün Yiyin.\n-Enerji Veren Gıdalar Tüketin.\n-Gücünüzü Artırın.\n\nKilo almak için nasıl beslenmeli diyorsanız kesinlikle internetten ya da arkadaşlarınızdan duyduğunuz diyetleri değil tamamen size özel hazırlanmış beslenme programlarını uygulamalısınız. Aksi halde sağlıklı beslenerek kilo alma hayalleriniz size sağlıksız bir hayat olarak geri dönebilir."
+   
+        },
+        {
+            "sorular": "Sağlıklı bir yaşam tarzının bir parçası olarak neden stresten kaçınılmalıdır?",
+            "cevaplar": "Stresten kaçınmak, fiziksel ve mental sağlığı iyileştirir. Kronik stres, beslenme alışkanlıklarını olumsuz yönde etkileyebilir ve genel yaşam kalitesini düşürebilir. Düzenli egzersiz ve rahatlatıcı aktiviteler bu konuda yardımcı olabilir."
+        },
+        {
+            "sorular": "Yaşlılarda Beslenme Bozuklukları Nelerdir?",
+            "cevaplar": "Yaşlılarda beslenme bozuklukları çeşitli faktörlere bağlı olarak ortaya çıkabilir. Bu faktörler arasında yaşlanma süreci, metabolizmanın değişimi, diş ve çene sorularnları, yutma güçlükleri, mide bağırsak sistemindeki değişimler ve yaşam tarzı gibi etkenler bulunmaktadır.\n\nBeslenme bozuklukları şu şekillerde ortaya çıkabilir:\n\n1. **Yetersiz Beslenme:** Yaşlı bireylerde iştah azalabilir ve yetersiz beslenme riski artabilir. Bu durum vücut ağırlığında kayıplara, zayıflamaya ve enerji eksikliğine yol açabilir.\n\n2. **Kalsiyum ve D Vitamini Eksikliği:** Kemik sağlığı için önemli olan kalsiyum ve D vitamini eksikliği osteoporoz riskini artırabilir.\n\n3. **Demir Eksikliği Anemisi:** Yetersiz demir alımı, yaşlılarda anemi sorularnunu beraberinde getirebilir.\n\n4. **Vitamin Eksiklikleri:** Yağda çözünen vitaminlerden özellikle vitamin D ve B12 eksikliği yaşlanma sürecinde sıkça görülebilir.\n\n5. **Dehidrasyon:** Yaşlı bireyler susama hissinin azalması nedeniyle yeterince su tüketmeyebilirler, bu da dehidrasyona neden olabilir.\n\nYaşlılarda beslenme bozukluklarının önlenmesi ve yönetilmesi için düzenli sağlık kontrolü, dengeli bir diyet, su tüketiminin takibi ve gerekirse besin takviyelerinin kullanımı önemlidir."
+        },
+        {
+            "sorular": "Yaşlılıkta Beslenme Bozuklukları İçin Ne Yapılabilir?",
+            "cevaplar": "Yaşlılıkta beslenme bozukluklarıyla başa çıkmak için çeşitli önlemler alınabilir:\n\n1. **Dengeli ve Çeşitli Beslenme:** Yaşlı bireylerin dengeli ve çeşitli bir diyet benimsemeleri önemlidir. Farklı besin gruplarından yeterli miktarda alım, vücudun ihtiyaçlarını karşılamaya yardımcı olabilir.\n\n2. **Sıvı Tüketimi:** Susuzluğun azalması nedeniyle yaşlılar sıvı tüketmeyi unutabilirler. Bu nedenle düzenli su içmek, meyve suları ve sulu gıdalar tüketmek önemlidir.\n\n3. **Vitamin ve Mineral Takviyeleri:** Doktor gözetiminde alınan vitamin ve mineral takviyeleri, eksiklikleri önleyebilir. Özellikle D vitamini, B12 vitamini gibi takviyelerin kullanımı önemlidir.\n\n4. **Protein Alımı:** Yaşlılarda kas kaybını önlemek için yeterli protein alımına özen gösterilmelidir. Et, süt ürünleri, yumurta, kurubaklagiller gibi protein kaynaklarına yer verilmelidir.\n\n5. **Düzenli Sağlık Kontrolleri:** Yaşlı bireyler düzenli sağlık kontrolleri yaptırmalıdır. Bu kontroller, potansiyel beslenme sorularnlarını tespit etmeye yardımcı olabilir.\n\n6. **Diş ve Ağız Sağlığına Özen Gösterme:** Diş sorularnları ve çene problemleri yaşlılarda beslenme bozukluklarına neden olabilir. Bu nedenle düzenli diş kontrolü ve ağız sağlığına özen gösterme önemlidir.\n\n7. **Uzman Yardımı:** Beslenme uzmanlarından destek almak, yaşlı bireylere özel beslenme programları oluşturmak ve bu konuda yönlendirme almak faydalı olabilir."
+        },
+        {
+            "sorular": "Yaşlılıkta Dinç Tutan Besinler!",
+            "cevaplar": "Yaşlılıkta dinç kalmak için aşağıdaki besinleri içeren dengeli bir diyet benimsemek önemlidir:\n\n1. **Omega-3 Yağ Asitleri İçeren Balıklar:** Somon, sardalya gibi balıklar omega-3 yağ asitleri bakımından zengindir. Bu yağ asitleri beyin sağlığına katkıda bulunabilir.\n\n2. **Koyu Yeşil Sebzeler:** Ispanak, brokoli, pazı gibi koyu yeşil sebzeler antioksidanlar ve lif bakımından zengindir. Bu besinler bağışıklık sistemini güçlendirebilir.\n\n3. **Yeterli Protein Kaynakları:** Et, tavuk, balık, yumurta gibi protein açısından zengin besinler kas sağlığını destekleyebilir.\n\n4. **C Vitamini İçeren Meyveler:** Portakal, mandalina, çilek gibi C vitamini içeren meyveler bağışıklık sistemini güçlendirebilir ve enerji seviyelerini artırabilir.\n\n5. **Tam Tahıllar:** Kepekli ekmek, kahverengi pirinç gibi tam tahıllar, lif ve enerji sağlayarak sindirim sistemini destekleyebilir.\n\n6. **Yoğurt ve Fermente Besinler:** Probiyotik içeren yoğurt ve fermente besinler sindirim sağlığını olumlu yönde etkileyebilir.\n\n7. **Kuru Yemişler:** Ceviz, badem gibi kuru yemişler sağlıklı yağlar, protein ve vitamin ve mineraller içerir. Ancak porsiyon kontrolüne dikkat edilmelidir.\n\n8. **Su:** Yeterli su içmek vücut fonksiyonlarını destekler, enerji seviyelerini artırabilir ve genel sağlığı olumlu yönde etkileyebilir."
+        },
+        {
+            "sorular": "Neden kilo kaybı yaşanır ve kilo almak için nasıl bir beslenme programı uygulanmalıdır?",
+            "cevaplar": "Kişiler, genetik nedenlerden, sonradan bozulan yemek düzenlerinden veya geçirilen çeşitli hastalıklardan dolayı kilo kayıpları yaşamaktadır. Kaybedilen kilolar, pek çok hastalığı da peşinden getirmektedir. Bu sorularnu yaşayan kişiler, kilo almak için beslenme programı oluşturmalı ve bu program ile ideal kilolarına ulaşmalılardır.\n\nKilo almak için poğaça, börek gibi bol karbonhidratlı yiyecekler işe yarar gibi gözükse de aslında bu yiyecekler size sadece sağlıksız bir karın yağı bırakmaktadır. Bu durumda kişilerin dengeli beslenerek kilo almaları gerekmektedir. Dengeli ve düzenli beslenmek hem ideal kilonuza ulaşmada yardımcı olacaktır hem de sağlıklı bir hayat tarzı benimsemenizi sağlayacaktır.\n\n-Kalorili Yiyecekler Tüketin\n-Protein Ağırlıklı Beslenin.\n-3 Öğün Yiyin.\n-Enerji Veren Gıdalar Tüketin.\n-Gücünüzü Artırın.\n\nKilo almak için nasıl beslenmeli diyorsanız kesinlikle internetten ya da arkadaşlarınızdan duyduğunuz diyetleri değil tamamen size özel hazırlanmış beslenme programlarını uygulamalısınız. Aksi halde sağlıklı beslenerek kilo alma hayalleriniz size sağlıksız bir hayat olarak geri dönebilir."
         }
     ]
 }

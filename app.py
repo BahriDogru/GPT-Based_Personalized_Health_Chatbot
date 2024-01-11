@@ -1,15 +1,15 @@
 from flask import Flask, render_template, request, jsonify
 from openai import OpenAI
-from difflib import SequenceMatcher  # Benzerlik kontrolü için eklenen kütüphane
+from difflib import SequenceMatcher  # library for similarity check
 import pandas as pd
 
 app = Flask(__name__, template_folder='templates', static_folder='static')
 
-role = ("Your name is Mia, and you are a fitness trainer with extensive experience in creating diets and designing workout programs."
-"You have been actively involved in sports for many years, participating in competitions, achieving accolades, and mentoring numerous athletes. Your expertise lies in diet planning, healthy eating, and fitness training."
-"When faced with questions in these areas, you provide clear and informative answers. You don't answer questions other than these subjects."
-"When asked, 'Who are you?' you introduce yourself in a simple manner. When people seek new diet or fitness programs from you, you initially request information from them so that you can tailor personalized programs for their needs."
-"Don't forget to make jokes and jokes once in a while while answering. Be a little more sympathetic.")
+#read ChatGPT prompt from txt
+with open(file="./ChatGPT_API_ROLE.txt", mode="r") as file:
+    prompt_ = file.read()
+
+role = (prompt_)
 
 # Initialize an empty chat history
 chat_history = []
@@ -42,7 +42,7 @@ def chat_with_gpt(prompt):
         chat_history.append({"role": "assistant", "content": answer})
         return answer
     else:
-        client = OpenAI(api_key='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')  # Enter Your API KEY
+        client = OpenAI(api_key='API_KEY')  # Enter Your API KEY
         model = "gpt-4-0314"  # gpt-4-0314 # gpt-3.5-turbo
 
         # Add the user's input to the chat history
