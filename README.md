@@ -1,46 +1,75 @@
-## Healty ChatBot
+# 🤖 Healthy ChatBot - ChatGPT API Integration
 
-Bu basit web uygulaması, Flask ve JavaScript kullanılarak geliştirilmiş bir sağlık konulu ChatBot'u temsil etmektedir. 
-Kullanıcılar, web arayüzü üzerinden ChatGPT API'sini kullanarak sağlık ve beslenme konularında sorular sorabilirler. Uygulama, kullanıcıların girdikleri soruları alır, bu soruları ChatGPT API'ye gönderir ve gelen cevapları kullanıcıya sunar.
+Hello there! This README file introduces the **"Healthy ChatBot"** project, a simple health chatbot application. In this project, my goal was to create an interactive platform where users can ask questions about health and nutrition and receive instant answers via the ChatGPT API.
 
-**Teknolojiler ve Kütüphaneler:**
-- Flask (Python web uygulama çerçevesi)
-- JavaScript (Frontend dinamik davranışlar)
-- OpenAI ChatGPT API (Soru cevap modeli)
+I developed this project to strengthen my skills in web development (`Flask`, `JavaScript`), API integration (`OpenAI ChatGPT API`), and data processing (`Pandas`).
 
-### Kullanım
+## 🎯 Project Goal and Approach
 
-1. Uygulamayı başlatmak için `app.py` dosyasını çalıştırın.
-2. Tarayıcıda `http://localhost:5000` adresine gidin.
-3. Sağlık ve beslenme konularında sorularınızı yazarak ChatGPT'den cevap alın.
+The main objective of this project is to guide users by providing quick and accurate answers to their health and nutrition questions. The chatbot leverages both a predefined dataset for information retrieval and ChatGPT's extensive knowledge base for more complex queries.
 
-Uygulamayı kullanırken lütfen OpenAI API anahtarınızın bulunması gerektiğini unutmayın.
+### 📊 Technologies Used
 
-### Teşekkürler
+The project brings together modern web technologies and powerful artificial intelligence tools:
 
-Bu projede yardımları için [meteyilmaz28](https://github.com/meteyilmaz28)'e teşekkür ederim!
+* **Python (Flask)**: A lightweight and flexible web framework for backend development.
+* **JavaScript**: Used to provide dynamic interactions in the user interface.
+* **OpenAI ChatGPT API**: Serves as the core AI engine of the chatbot, offering natural language processing capabilities across a wide range of information.
+* **Pandas**: Used to load and process the JSON formatted dataset (`mydata.json`).
+* **difflib.SequenceMatcher**: Used to measure the similarity between user questions and questions in the local dataset.
 
+---
 
-## Healty ChatBot
+## 📝 System Architecture
 
-This simple web application represents a healthcare ChatBot developed using Flask and JavaScript.
-Users can ask questions about health and nutrition using the ChatGPT API via the web interface. The application takes the questions entered by the users, sends these questions to the ChatGPT API and presents the answers to the user.
+The system is based on a simple client-server model:
 
-**Technologies and Libraries:**
-- Flask (Python web application framework)
-- JavaScript (Frontend dynamic behaviors)
-- OpenAI ChatGPT API (Question-answering model)
+1.  **User Interface (Frontend)**: A simple web page created with `index.html` and CSS/JS files in the `static` folder. Users enter their questions here.
+2.  **Web Server (Backend - Flask)**: Receives and processes requests from the user, then sends back responses.
+    * Each incoming user message is first searched within the **local dataset** (`mydata.json`). If a similar question is found, the predefined answer is returned directly.
+    * If no suitable answer is found in the local dataset, the question is sent to the **ChatGPT API**.
+    * The response from ChatGPT is formatted to match the chatbot's persona, named `Mia`, who is a fitness trainer.
+3.  **ChatGPT API**: As an external service, it provides sophisticated natural language understanding and generation capabilities.
+4.  **Dataset (`mydata.json`)**: A JSON file within the application that contains specific question-answer pairs. It provides quick responses to frequently asked questions.
 
-### Usage
+---
 
-1. Run the application by executing the `app.py` file.
-2. Navigate to `http://localhost:5000` in your web browser.
-3. Ask questions about health and nutrition to receive responses from ChatGPT.
+## 🛠️ Setup and Running
 
-Please note that you must have your OpenAI API key when using the app.
+To run this project on your local machine, follow these steps:
 
+1.  **Clone the Repository**:
+    ```bash
+    git clone https://github.com/BahriDogru/GPT-Based_Personalized_Health_Chatbot.git
+    ```
+2.  **Navigate to the project directory after cloning**:
+    ```bash
+    cd GPT-Based_Personalized_Health_Chatbot
+    ```
+3.  **Install Required Libraries**:
+    ```bash
+    conda install Flask openai pandas
+    ```
+    Alternatively, from an `environment.yaml` file:
+    ```bash
+    conda env create -f environment.yaml
+    ```
+4.  **Configure Your OpenAI API Key**:
+    You need to enter your OpenAI API key where `<YOUR_API_KEY>` is written in the `app.py` file:
+    ```python
+    client = OpenAI(api_key='YOUR_API_KEY') # Enter your API key here
+    ```
+    For security, it is highly recommended to set your API key as an environment variable instead of embedding it directly in the code. For example: `os.environ.get("OPENAI_API_KEY")`.
+5.  **Place Necessary Files**:
+    * Ensure that the `ChatGPT_API_ROLE.txt` file is in the same directory as `app.py`.
+    * Ensure that the `mydata.json` file is in the same directory as `app.py`.
+    * The `templates` folder (containing `index.html`) and the `static` folder (containing `style.css`, `script.js`, etc.) should be in the same directory as `app.py`.
+6.  **Run the Application**:
+    ```bash
+    python app.py
+    ```
+    The application will run by default at `http://127.0.0.1:5000/`. You can open your browser and navigate to this address.
 
+7.  **Acknowledgements**:
 
-### Thanks
-
-I would like to express my gratitude to [meteyilmaz28](https://github.com/meteyilmaz28) for their contributions to this project!
+    I would like to express my gratitude to [meteyilmaz28](https://github.com/meteyilmaz28) for their contributions to this project!
