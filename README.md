@@ -1,6 +1,6 @@
 # 🤖 Healthy ChatBot - ChatGPT API Integration
 
-Hello there! This README file introduces the **"Healthy ChatBot"** project, a simple health chatbot application. In this project, my goal was to create an interactive platform where users can ask questions about health and nutrition and receive instant answers via the ChatGPT API.
+Hello there! In this project, my goal was to create an interactive platform where users can ask questions about health and nutrition and receive instant answers via the ChatGPT API.
 
 I developed this project to strengthen my skills in web development (`Flask`, `JavaScript`), API integration (`OpenAI ChatGPT API`), and data processing (`Pandas`).
 
